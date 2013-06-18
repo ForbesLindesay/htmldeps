@@ -1,6 +1,6 @@
 {
   "name": "htmldeps",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "detect the dependencies of an HTML file",
   "scripts": {
     "test": "mocha -R spec"
