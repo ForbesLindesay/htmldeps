@@ -1,0 +1,20 @@
+{
+  "name": "htmldeps",
+  "version": "0.0.0",
+  "description": "detect the dependencies of an HTML file",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/htmldeps.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.11.0"
+  },
+  "dependencies": {
+    "htmlparser": "~1.7.6"
+  }
+}
