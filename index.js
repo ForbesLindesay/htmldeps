@@ -1,6 +1,6 @@
-"use strict";
+'use strict'
 
-var htmlparser = require('htmlparser')
+var htmlparser = require('htmlparser2')
 
 module.exports = detect
 function detect(src) {

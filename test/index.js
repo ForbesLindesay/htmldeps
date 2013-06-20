@@ -1,3 +1,5 @@
+'use strict'
+
 var fs = require('fs')
 var util = require('util')
 var assert = require('assert')
@@ -19,6 +21,11 @@ describe('detect(src)', function () {
   })
   it('detects MANIFESTs', function () {
     contains(detect(src), ['/bop.manifest'])
+  })
+  it('is fast', function () {
+    for (var i = 0; i < 1000; i++) {
+      detect(src)
+    }
   })
 })
 
