@@ -1,5 +1,7 @@
 # htmldeps
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/htmldeps.svg)](https://greenkeeper.io/)
+
 Detect the dependencies of an html file (not recursive)
 
 ## Installation
